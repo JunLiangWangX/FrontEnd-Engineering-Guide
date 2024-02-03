@@ -20,10 +20,10 @@ export default {
         
         // Obtain configuration from: https://giscus.app/
         giscusTalk({
-            repo: 'JunLiangWangX/HTTP-Explanation',
-            repoId: 'R_kgDOJyDQ_g',
-            category: 'General', // default: `General`
-            categoryId: 'DIC_kwDOJyDQ_s4CcQKd',
+            repo: 'JunLiangWangX/FrontEnd-Engineering-Guide',
+            repoId: 'R_kgDOLNYjIg',
+            category: 'Announcements', // default: `General`
+            categoryId: 'DIC_kwDOLNYjIs4Cc6t4',
             mapping: 'pathname', // default: `pathname`
             inputPosition: 'top', // default: `top`
             lang: 'zh-CN', // default: `zh-CN`

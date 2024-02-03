@@ -3,7 +3,7 @@
 layout: home
 title: 首页
 hero:
-  name: "HTTP完全注释"
+  name: "前端工程化指南"
   text: ""
   tagline: 全面、集中、准确
   actions:
@@ -12,7 +12,7 @@ hero:
       link: /docs/overview/the-history-of-http
     - theme: alt
       text: 访问Github
-      link: https://github.com/JunLiangWangX/HTTP-Explanation/
+      link: https://github.com/JunLiangWangX/FrontEnd-Engineering-Guide/
 
 ---
 
