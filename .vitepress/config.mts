@@ -124,7 +124,7 @@ export default withPwa(defineConfig({
       {
         text: '敬请期待',
         link: '/docs/wait'
-      },
+      }
     ],
 
     socialLinks: [
