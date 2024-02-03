@@ -38,3 +38,4 @@ jobs:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # 引用之前创建好的secret
           local_path: './public/*'
           remote_path: "/home/www/htdocs/wangjunliang/FrontEnd-Engineering-Guide/"
+          sftp_only: false
