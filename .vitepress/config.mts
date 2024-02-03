@@ -121,6 +121,10 @@ export default withPwa(defineConfig({
       { text: '了解作者', link: 'https://wangjunliang.com/' },
     ],
     sidebar: [
+      {
+        text: '敬请期待',
+        link: '/docs/wait'
+      },
     ],
 
     socialLinks: [

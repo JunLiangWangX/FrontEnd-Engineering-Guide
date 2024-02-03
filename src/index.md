@@ -9,6 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
+      link: /docs/wait
     - theme: alt
       text: 访问Github
       link: https://github.com/JunLiangWangX/FrontEnd-Engineering-Guide/
