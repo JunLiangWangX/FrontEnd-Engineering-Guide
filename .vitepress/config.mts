@@ -19,7 +19,7 @@ export default withPwa(defineConfig({
   },
   buildEnd: ( siteConfig) => {
     
-   const baseURL = 'https://wangjunliang.com/note-template';
+   const baseURL = 'https://wangjunliang.com/FrontEnd-Engineering-Guide';
 
    try {
      let siteMapStr = '';
@@ -52,10 +52,10 @@ export default withPwa(defineConfig({
      console.log('create sitemap.txt failed!', err);
    }
   },
-  title: "note-template",
-  description: "note template rep",
+  title: "FrontEnd-Engineering-Guide",
+  description: "A comprehensive, centralized, and accurate guide to front-end engineering",
   lang: "zh-CN",
-  base: '/note-template/',
+  base: '/FrontEnd-Engineering-Guide/',
   srcExclude: ['**/README.md', '**/TODO.md'],
   outDir: './public',
   srcDir: 'src',
@@ -69,24 +69,16 @@ export default withPwa(defineConfig({
       'script',
       {
         async: 'true',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7298585637298195',
-        crossorigin: 'anonymous'
-      }
-    ],
-    [
-      'script',
-      {
-        async: 'true',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-X83T8C1XEL'
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-62G6TPBXSW'
       }
     ],
     [
       'script',
       {},
       `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-X83T8C1XEL');`
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-62G6TPBXSW');`
 
     ],
     [
@@ -104,8 +96,7 @@ export default withPwa(defineConfig({
 
   ],
   themeConfig: {
-    // logo:'./.vitepress/assets/logo.svg',
-    siteTitle: 'HTTP完全注释',
+    siteTitle: '前端工程化指南',
     lastUpdatedText: '最后更新',
     darkModeSwitchLabel: '切换模式',
     sidebarMenuLabel: "菜单",
@@ -123,95 +114,29 @@ export default withPwa(defineConfig({
     },
     editLink: {
       text: "在Github编辑此页",
-      pattern: 'https://github.com/JunLiangWangX/HTTP-Explanation/edit/main/src/:path'
+      pattern: 'https://github.com/JunLiangWangX/FrontEnd-Engineering-Guide/edit/main/src/:path'
     },
     nav: [
       { text: '支持作者', link: 'https://wangjunliang.com/#/supportBloggers' },
       { text: '了解作者', link: 'https://wangjunliang.com/' },
     ],
     sidebar: [
-      {
-        text: '概述',
-        items: [
-          {
-            text: 'HTTP的历史', link: '/docs/overview/the-history-of-http'
-          },
-          {
-            text: 'HTTP的报文格式', link: '/docs/overview/http-message-format'
-          }
-        ]
-      },
-      {
-        text: '安全策略',
-        items: [{
-          text: '拯救不安全的HTTP - HTTPS', link: '/docs/security-strategy/rescue-insecure-http-https'
-        }, {
-          text: 'XSS攻击？内容安全策略会出手的', link: '/docs/security-strategy/content-security-policy'
-        }, {
-          text: 'CSRF攻击？同源策略会出手的', link: '/docs/security-strategy/same-origin-policy'
-        }, {
-          text: '又跨域了？一文解释清楚跨源资源共享（cors）', link: '/docs/security-strategy/cross-origin-resource-sharing'
-        }, {
-          text: '常见攻击与防护', link: '/docs/security-strategy/common-attack-and-protection-methods'
-        }
-        ]
-      },
-      {
-        text: '身份认证策略',
-        items: [{
-          text: 'Cookie', link: '/docs/authentication-strategy/cookie'
-        }, {
-          text: 'Authorization', link: '/docs/authentication-strategy/authorization'
-        },
-
-        ]
-      },
-      {
-        text: '性能优化策略',
-        items: [{
-          text: '长连接与短连接', link: '/docs/performance-optimization-strategy/long-connection-and-short-connection'
-        }, {
-          text: 'HTTP缓存', link: '/docs/performance-optimization-strategy/http-cache'
-        }, {
-          text: '数据压缩', link: '/docs/performance-optimization-strategy/data-compression'
-        }]
-      },
-      {
-        text: '内容协商策略',
-        items: [{
-          text: '范围请求', link: '/docs/content-negotiation/range-request'
-        }, {
-          text: '条件请求', link: '/docs/content-negotiation/condition-request'
-        }, {
-          text: '内容协商', link: '/docs/content-negotiation/content-negotiation'
-        }, {
-          text: '客户端提示', link: '/docs/content-negotiation/client-hints'
-        }]
-      },
-      {
-        text: '其他',
-        items: [{
-          text: 'MIME类型', link: '/docs/other/mime-type'
-        },{
-          text: 'URL', link: '/docs/other/url'
-        },]
-      }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/JunLiangWangX/HTTP-Explanation/' }
+      { icon: 'github', link: 'https://github.com/JunLiangWangX/FrontEnd-Engineering-Guide/' }
     ]
   },
   /* Vite PWA Options */
   pwa: {
     outDir: '../public',
-    base: '/HTTP-Explanation/',
-    scope: '/HTTP-Explanation/',
+    base: '/FrontEnd-Engineering-Guide/',
+    scope: '/FrontEnd-Engineering-Guide/',
     includeAssets: ['logo.svg'],
     manifest: {
-      name: 'HTTP完全注释',
-      short_name: 'HTTP完全注释',
-      description: "一份全面、集中、准确的HTTP完全注解",  //描述
+      name: '前端工程化指南',
+      short_name: '前端工程化指南',
+      description: "一份全面、集中、准确的前端工程化指南",  //描述
       theme_color: '#ffffff',
       icons: [
         {
