@@ -38,3 +38,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: './public/*'
           target: "/home/www/htdocs/wangjunliang/FrontEnd-Engineering-Guide/"
+          strip_components: 1
