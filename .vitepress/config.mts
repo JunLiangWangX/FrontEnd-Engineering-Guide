@@ -52,7 +52,7 @@ export default withPwa(defineConfig({
      console.log('create sitemap.txt failed!', err);
    }
   },
-  title: "FrontEnd-Engineering-Guide",
+  title: "前端工程化指南",
   description: "A comprehensive, centralized, and accurate guide to front-end engineering",
   lang: "zh-CN",
   base: '/FrontEnd-Engineering-Guide/',
