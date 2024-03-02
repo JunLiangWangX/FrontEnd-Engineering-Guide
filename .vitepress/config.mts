@@ -34,7 +34,7 @@ export default withPwa(defineConfig({
        );
        siteMapStr += `
        <url>
-         <loc>${baseURL}/${page.replace(/\.md$/, '')}</loc>
+         <loc>${baseURL}/${page.replace(/\.md$/, '.html')}</loc>
          <lastmod>${date.toISOString()}</lastmod>
          <changefreq>weekly</changefreq>
          <priority>1.0</priority> 
@@ -122,8 +122,11 @@ export default withPwa(defineConfig({
     ],
     sidebar: [
       {
-        text: '敬请期待',
-        link: '/docs/wait'
+        text: '版本控制',
+        items: [{
+          text:'什么是版本控制？',
+          link:'/docs/version-control/what-is-version-control'
+        }]
       }
     ],
 
