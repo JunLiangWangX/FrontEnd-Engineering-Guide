@@ -122,10 +122,10 @@ export default withPwa(defineConfig({
     ],
     sidebar: [
       {
-        text: '版本控制',
+        text: '版本控制系统',
         items: [{
-          text:'什么是版本控制？',
-          link:'/docs/version-control/what-is-version-control'
+          text:'什么是版本控制系统？',
+          link:'/docs/version-control/what-is-version-control-sys'
         }]
       }
     ],

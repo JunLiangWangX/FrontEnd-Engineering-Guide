@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/wait
+      link: /docs/version-control/what-is-version-control-sys
     - theme: alt
       text: 访问Github
       link: https://github.com/JunLiangWangX/FrontEnd-Engineering-Guide/
