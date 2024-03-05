@@ -2,6 +2,34 @@
        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
        
        <url>
+         <loc>https://wangjunliang.com/FrontEnd-Engineering-Guide/docs/version-control/git-advanced-operations.html</loc>
+         <lastmod>2024-03-05T09:42:26.000Z</lastmod>
+         <changefreq>weekly</changefreq>
+         <priority>1.0</priority> 
+       </url>
+     
+       <url>
+         <loc>https://wangjunliang.com/FrontEnd-Engineering-Guide/docs/version-control/git-commands.html</loc>
+         <lastmod>2024-03-05T09:42:26.000Z</lastmod>
+         <changefreq>weekly</changefreq>
+         <priority>1.0</priority> 
+       </url>
+     
+       <url>
+         <loc>https://wangjunliang.com/FrontEnd-Engineering-Guide/docs/version-control/git-common-operations.html</loc>
+         <lastmod>2024-03-05T09:42:26.000Z</lastmod>
+         <changefreq>weekly</changefreq>
+         <priority>1.0</priority> 
+       </url>
+     
+       <url>
+         <loc>https://wangjunliang.com/FrontEnd-Engineering-Guide/docs/version-control/git-intro-and-install.html</loc>
+         <lastmod>2024-03-05T09:42:26.000Z</lastmod>
+         <changefreq>weekly</changefreq>
+         <priority>1.0</priority> 
+       </url>
+     
+       <url>
          <loc>https://wangjunliang.com/FrontEnd-Engineering-Guide/docs/version-control/what-is-version-control-sys.html</loc>
          <lastmod>2024-03-04T14:26:55.000Z</lastmod>
          <changefreq>weekly</changefreq>
