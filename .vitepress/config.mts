@@ -127,6 +127,18 @@ export default withPwa(defineConfig({
         items: [{
           text:'什么是版本控制系统？',
           link:'/docs/version-control/what-is-version-control-sys'
+        },{
+          text:'Git介绍与安装',
+          link:'/docs/version-control/git-intro-and-install'
+        },{
+          text:'Git常见操作',
+          link:'/docs/version-control/git-common-operations'
+        },{
+          text:'Git高级操作',
+          link:'/docs/version-control/git-advanced-operations'
+        },{
+          text:'Git命令大全',
+          link:'/docs/version-control/git-commands'
         }]
       }
     ],
